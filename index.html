@@ -60,7 +60,7 @@
         /* Sección Principal (Hero Section) */
         .hero {
             position: relative;
-            height: 30vh;
+            height: 50vh;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -175,7 +175,6 @@
     </style>
 </head>
 <body>
-
     <!-- Menú de Navegación -->
     <nav>
         <a href="#home" class="logo">Magical Map</a>
@@ -195,10 +194,23 @@
         </div>
     </header>
 
+    <section id="privacy" class="gameplay-section">
+        <h2>Buy me a coffee ☕</h2>
+        <p>for Magical Map 3D Game development</p>
+        <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="business" value="K9WSAZKTBU9AE" />
+            <input type="hidden" name="no_recurring" value="0" />
+            <input type="hidden" name="item_name" value="Buy me a coffee for Magical Map 3D Game" />
+            <input type="hidden" name="currency_code" value="MXN" />
+            <input type="image" src="https://www.paypalobjects.com/en_US/MX/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+            <img alt="" border="0" src="https://www.paypal.com/en_MX/i/scr/pixel.gif" width="1" height="1" />
+        </form>
+    </section>
+
     <!-- Sección Vista Previa del Juego -->
     <section id="gameplay" class="gameplay-section">
         <h2>Gameplay</h2>
-        <p>Explora los niveles y supera los desafíos dentro de Magical Map.</p>
+        <p>Explore the levels and overcome the challenges within Magical Map.</p>
         <div class="screenshot-container">
             <img src="img/mm.jpg" alt="Captura de pantalla de Magical Map">
         </div>
@@ -223,6 +235,5 @@
         <p>&copy; 2026 Magical Map. All rights reserved to Gerardo Gonzalez Cruz.</p>
         <p>Total or partial reproduction of this app is prohibited without the express consent of the author.</p>
     </footer>
-
 </body>
 </html>
